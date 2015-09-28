@@ -22,6 +22,12 @@ deepStrictEqual({foo: {bar: [1, 2]}}, {foo: {bar: [1, 2]}});
 
 deepStrictEqual({foo: {bar: [1, 2]}}, {foo: {bar: [1, 4]}});
 //=> false
+
+deepStrictEqual({foo: {bar: 1}}, {foo: {bar: 1}});
+//=> true
+
+deepStrictEqual({foo: {bar: 1}}, {foo: {bar: '1'}});
+//=> false
 ```
 
 
