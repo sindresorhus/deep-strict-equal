@@ -1,4 +1,4 @@
-# deep-strict-equal [![Build Status](https://travis-ci.org/sindresorhus/deep-strict-equal.svg?branch=master)](https://travis-ci.org/sindresorhus/deep-strict-equal)
+# deep-strict-equal
 
 > Test for deep equality - Node.js [`assert.deepStrictEqual()`](https://nodejs.org/api/assert.html#assert_assert_deepstrictequal_actual_expected_message) algorithm as a standalone module
 
