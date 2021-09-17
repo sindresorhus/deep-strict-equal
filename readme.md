@@ -1,16 +1,16 @@
+This package is deprecated as it's too much effort to keep it in sync with the Node.js implementation. Just use [`util.isDeepStrictEqual()`](https://nodejs.org/api/util.html#util_util_isdeepstrictequal_val1_val2).
+
+---
+
 # deep-strict-equal
 
 > Test for deep equality - Node.js [`assert.deepStrictEqual()`](https://nodejs.org/api/assert.html#assert_assert_deepstrictequal_actual_expected_message) algorithm as a standalone module
 
-*Issues and improvements should be done in [Node.js](https://github.com/nodejs/node/issues) first.*
-
-
 ## Install
 
 ```
-$ npm install --save deep-strict-equal
+$ npm install deep-strict-equal
 ```
-
 
 ## Usage
 
@@ -29,8 +29,3 @@ deepStrictEqual({foo: {bar: 1}}, {foo: {bar: 1}});
 deepStrictEqual({foo: {bar: 1}}, {foo: {bar: '1'}});
 //=> false
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)
